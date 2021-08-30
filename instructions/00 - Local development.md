@@ -1,6 +1,6 @@
 ## Local Development 
 
-If you are working on your local computer, you can follow these steps to configure your environment to work with the labs.  
+While performing the labs make sure you meet all the requirements for these lab, if you have already installed, check with the update of the application, you can follow these steps to configure your environment to work with the labs.  
 
 ### C++ Redistributable 
 1. Download and install the [Visual C++ Redistributable (x64)](https://aka.ms/vs/16/release/vc_redist.x64.exe) 
@@ -11,6 +11,10 @@ If you are working on your local computer, you can follow these steps to configu
 2. After installation, open *Command Prompt* and enter the following command to install the necessary packages: 
 
 > pip install ipython jupyter matplotlib pillow requests azure-cognitiveservices-vision-computervision azure-cognitiveservices-vision-customvision azure-cognitiveservices-vision-face azure-cognitiveservices-language-textanalytics azure.cognitiveservices.speech azure_ai_formrecognizer 
+
+3.Run the below command to install playsound package(this package is installed for lab 8 and 10):
+
+>pip install playsound
 
 ### Visual Studio Code 
 1. If you do not have Visual Studio Code already, [download it here]](https://code.visualstudio.com/Download). After installation, start Visual Studio Code and on the Extensions tab (CTRL+SHIFT+X), search for and install the **Python** extension from Microsoft.
